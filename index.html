@@ -14,13 +14,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullet">
-            <a class="header__link header__link_active"><span>Главная</span></a>
+            <a class="header__link header__link_active">Главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link"><span>Посмотреть лоты</span></a>
+            <a class="header__link">Посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link"><span>Об аукционе</span></a>
+            <a class="header__link">Об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -28,8 +28,8 @@
         <img class="header__logo-image" src="/images/logo-black.svg" alt="" />
       </a>
       <address class="header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:mail@example.com">info@sobaka.ge</a>
+        <a class="underline-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline-link" href="mailto:mail@example.com">info@sobaka.ge</a>
         <br>наб. Принсенграхт 263- 265, Амстердам
       </address>
     </header>
@@ -77,12 +77,20 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link">
-          <span>посмотреть больше</span>
-        </a>
+        <a class="lots__look-more-link underline-link">посмотреть больше</a>
       </section>
       <section class="about">
-        <span>about</span>
+        <div class="about__column">
+          <div class="about__logo">
+            <img class="about__logo-image" src="/images/logo-white.svg" alt="" />
+          </div>
+        </div>
+        <div class="about__column">
+          <h2 class="about__title">Об аукционе</h2>
+          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+          <p class="about__text no-magrin-bottom-text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+            на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+        </div>
       </section>
     </main>
     <footer class="footer">
