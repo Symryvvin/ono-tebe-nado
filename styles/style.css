@@ -1,15 +1,9 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 92px 0 98px;
-}
-
 .header {
     width: 1000px;
     height: 105px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
+    margin: 92px 50px 0;
 }
 
 .header__menu {
@@ -65,6 +59,13 @@ body {
 .header__address a {
     text-decoration: none;
     border-bottom: 1px solid black;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cover {
@@ -241,8 +242,10 @@ body {
     display: block;
     margin: 30px 0 0 40px;
     font-size: 20px;
-    text-decoration: underline;
-    text-underline-position: under;
+}
+
+.lots__look-more-link span {
+    border-bottom: 1px solid black;
 }
 
 .about {
@@ -252,7 +255,7 @@ body {
 }
 
 .footer {
-    margin-top: 180px;
     width: 1000px;
     height: 98px;
+    margin: 180px 50px 88px;
 }
