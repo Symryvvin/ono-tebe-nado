@@ -126,18 +126,6 @@ body {
     letter-spacing: 0;
 }
 
-.extended-whitespace_90 {
-    letter-spacing: 0.9em;
-}
-
-.extended-whitespace_80 {
-    letter-spacing: 0.8em;
-}
-
-.extended-whitespace_110 {
-    letter-spacing: 1.1em;
-}
-
 .cover__description-text {
     position: absolute;
     bottom: 62px;
@@ -145,6 +133,16 @@ body {
     color: white;
     font-size: 22px;
     text-transform: uppercase;
+    word-spacing: 0.9em;
+}
+
+.word-spacing-letter {
+    letter-spacing: 1.1em;
+    word-spacing: normal;
+}
+
+.word-spacing-short {
+    word-spacing: 0.8em;
 }
 
 .bet-button {
@@ -158,7 +156,7 @@ body {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    background: none;
+    background: transparent;
     border: 1px solid white;
 }
 
