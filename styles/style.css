@@ -46,10 +46,10 @@ body {
 .header__logo {
     display: block;
     width: 148px;
-    height: 105px;    
+    height: 105px;
 }
 
-.header__logo-image { 
+.header__logo-image {
     height: 100%;
 }
 
@@ -206,7 +206,7 @@ body {
     background-size: cover;
 }
 
-.card_type_books{
+.card_type_books {
     background-image: url("/images/card-lot-02.jpg");
     background-position: center;
     background-size: cover;
@@ -254,5 +254,5 @@ body {
 .footer {
     margin-top: 180px;
     width: 1000px;
-    height: 98px;   
+    height: 98px;
 }
