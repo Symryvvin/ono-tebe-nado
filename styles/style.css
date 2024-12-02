@@ -3,45 +3,103 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 92px 0 98px;
-
-    border: 1px solid black;
 }
 
 .header {
-    width: 1052px;
+    width: 1000px;
     height: 105px;
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+}
 
-    border: 1px solid black;
+.header__menu {
+    align-self: center;
+    justify-self: start;
+}
+
+.header__links-list {
+    height: 100%;
+    display: flex;
+    list-style: circle;
+}
+
+.header__links-list-item {
+    font-size: 18px;
+    padding: 2px 33px 0 0;
+}
+
+.header__links-list-item_no-bullet {
+    list-style: none;
+}
+
+.header__link {
+    white-space: nowrap;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;    
+}
+
+.header__logo-image { 
+    height: 100%;
+}
+
+.header__address {
+    width: 240px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25px;
+    align-self: center;
+    justify-self: end;
+}
+
+.header__address a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 
 .cover {
+    position: relative;
     margin-top: 96px;
     width: 100%;
     height: 757px;
+    background-image: url("/images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
-    border: 1px solid black;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
 }
 
 .lots {
     margin-top: 179px;
     width: 1052px;
     height: 692px;
-
-    border: 1px solid black;
 }
 
 .about {
     margin-top: 146px;
     width: 1052px;
     height: 595px;
-
-    border: 1px solid black;
 }
 
 .footer {
     margin-top: 180px;
     width: 1000px;
     height: 98px;   
-
-    border: 1px solid black;
 }
