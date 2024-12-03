@@ -1,6 +1,5 @@
 .header {
     width: 1000px;
-    height: 105px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     margin: 92px 50px 0;
@@ -168,7 +167,6 @@
 .lots {
     margin-top: 179px;
     width: 1052px;
-    min-height: 692px;
 }
 
 .lots__heading {
